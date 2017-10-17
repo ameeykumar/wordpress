@@ -406,7 +406,7 @@ require get_template_directory() . '/inc/template-tags.php';
  */
 require get_template_directory() . '/inc/customizer.php';
 
-<<<<<<< HEAD
+
 /////////////////////////////////Register Form////////////////////////////////////////////
 add_action( 'register_form', 'myplugin_register_form' );
 function myplugin_register_form() {
@@ -440,7 +440,7 @@ function myplugin_user_register( $user_id ) {
 	}
 }
 /////////////////////////////////End OF Register Form////////////////////////////////////////////
-=======
+
 //////////////////////////////Login Form/////////////////////////////////////////////////////
 
 function wp_login_form( $args = array() )
@@ -466,4 +466,4 @@ function wp_login_form( $args = array() )
 }
 
 ////////////////////////end of Login Form/////////////////////////////////////////////////////
->>>>>>> login
+
